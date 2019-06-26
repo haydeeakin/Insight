@@ -7,7 +7,7 @@ m5= g[g['Films']>=10]
 m5
 
 #-----------------------#--------------------------#
-# plot labels against index of nomination
+# plot target against index of nomination
 %config InlineBackend.figure_format='svg'
 sns.lmplot(x='Index Director Nomination', y='target1', data=data, logistic=True, y_jitter=.03,hue='target1', )
 plt.savefig('target.png',dpi=300,bbox_inches="tight")
