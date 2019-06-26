@@ -24,3 +24,13 @@ acc_log
 correctpredic=df['']
 dflr.coef_
 array([[ 1.89187706, -5.15593322]])
+
+corrcd = countdata.corr()
+corrcd
+  lognomi	logwon	logfil	residwon	residnom
+lognomi	1.000000	0.157070	7.520392e-01	-3.887637e-01	6.591184e-01
+logwon	0.157070	1.000000	6.160576e-01	7.877011e-01	-4.646048e-01
+logfil	0.752039	0.616058	1.000000e+00	-3.096118e-15	-5.978103e-15
+residwon	-0.388764	0.787701	-3.096118e-15	1.000000e+00	-5.898237e-01
+residnom	0.659118	-0.464605	-5.978103e-15	-5.898237e-01	1.000000e+00
+
